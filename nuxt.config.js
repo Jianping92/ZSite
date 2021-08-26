@@ -39,11 +39,19 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/style-resources',
     "@nuxtjs/dayjs"
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
+
+  // styleResources: {
+  //   scss: [
+  //     ...SCSS_VARIABLES_PRODUCTION,
+  //     '~/assets/styles/init.scss'
+  //   ]
+  // },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

@@ -44,3 +44,9 @@
     </div>
   </div>
 </template>
+
+<style lang='scss'>
+p {
+  color: red !important;
+}
+</style>
