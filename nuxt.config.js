@@ -46,12 +46,11 @@ export default {
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
-  // styleResources: {
-  //   scss: [
-  //     ...SCSS_VARIABLES_PRODUCTION,
-  //     '~/assets/styles/init.scss'
-  //   ]
-  // },
+  styleResources: {
+    scss: [
+      '~/assets/style/main.scss'
+    ]
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
